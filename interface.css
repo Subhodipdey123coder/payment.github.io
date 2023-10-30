@@ -1,0 +1,353 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: white;
+    overflow: hidden;
+}
+.ma{
+    margin: auto;
+    width: 20vw;
+    margin-top: 12px;
+}
+.max-w{
+    margin-bottom: 12px;
+}
+.back-2{
+    height: 780px;
+    width: 100%;
+}
+
+.back-2 img{
+    height: inherit;
+    width: 100%;
+}
+.first-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    height: 100%;
+}
+.top{
+    display:flex ;
+    margin-left: 55px;
+    margin-top: 55px;
+}
+.top img{
+    height: 56px;
+    width: 59px;
+    border-radius: 38px;
+    cursor: pointer;
+}
+.para1{
+    margin-top: 10px;
+    margin-left: 12px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+}
+.para2{
+    margin-left: 12px;
+    color: rgb(176, 169, 169);
+}
+.middle{
+    margin-left: 63px;
+}
+.para{
+    margin-top:32px;
+    font-size: 17px;
+    color: rgb(176, 169, 169);
+   
+}
+.para3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.second-container{
+    position: absolute;
+    top: 0px;
+    left: 382px;
+    
+
+}
+.para4{
+    margin-top: 55px;
+    font-size: 38px;
+    margin-left:14px;
+}
+.para5{
+    font-size: 17px;
+    color: rgb(176, 169, 169);
+    margin-left:14px;
+}
+select:invalid{
+    color: rgb(176, 169, 169);
+    border: none;
+    border-radius: 15px;
+}
+
+option{
+    color: black;
+    
+}
+.select1{
+    margin: 12px 12px;
+    padding: 12px 12px;
+    cursor: pointer;
+}
+.select2{
+    margin: 12px 12px;
+    padding: 12px 12px;
+    cursor: pointer;
+}
+.search{
+   padding-left: 6px;
+    width: 252px;
+    height: 39px;
+    margin: 12px 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 15px;
+}
+.choice2 img{
+    height: 26px;
+    width: 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: 139px;
+    left: 218px;
+    cursor:text; 
+}
+.btn2{
+    padding: 13px 22px;
+    margin: 12px 12px;
+    color: white;
+    background-color: #2aae2a;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+}
+.btn2 a{
+    color: white;
+    text-decoration: none;
+}
+.heading1 img{
+    height: 23px;
+    width: 19px;
+    position: absolute;
+    left: 656px;
+    top: 69px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.choice{
+    margin: 42px 49px;
+}
+.choice ul{
+    list-style: none;
+}
+.choice li{
+    margin-top: 32px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: #2aae2a;
+    color: white;
+    width: 99px;
+    border-radius: 12px;
+}
+.bbb:hover{
+    background-color: #2aae2a;
+    color: white;
+    width: 77px;
+    border-radius: 12px;
+}
+.ccc:hover{
+    background-color: #2aae2a;
+    color: white;
+    width: 55px;
+    border-radius: 12px;
+}
+.ddd:hover{
+    background-color: #2aae2a;
+    color: white;
+    width: 77px;
+    border-radius: 12px;
+}
+.eee:hover{
+    background-color: #2aae2a;
+    color: white;
+    width: 115px;
+    border-radius: 12px;
+}
+footer{
+    margin-left: 55px;
+    margin-top: 55px; 
+    position: absolute;
+    bottom: 25px;
+}
+.pay{
+    display: flex;
+    cursor: pointer;
+}
+.pay1 img{
+    height: 56px;
+    width: 57px;
+    margin-top: 56px;
+    margin-left: 31px;
+}
+.pay2 img{
+    height: 47px;
+    width: 50px;
+    margin-top: 63px;
+    margin-left: 67px;
+}
+.pay3 img{
+    height: 47px;
+    width: 50px;
+    margin-top:63px;
+    margin-left: 68px;
+}
+.pay4 img{
+    height: 71px;
+    width: 65px;
+    margin-top: 41px;
+    margin-left: 66px;
+}
+.pay5 img{
+    height: 52px;
+    width: 50px;
+    margin-top: 61px;
+    margin-left: 63px;
+}
+.pay6 img{
+    height: 56px;
+    width: 53px;
+    margin-top: 56px;
+    margin-left: 69px;
+}
+.pay1 p{
+    margin-top: 12px;
+    margin-left:40px;
+}
+.pay2 p{
+    margin-top: 12px;
+    margin-left:73px;
+}
+.pay3 p{
+    margin-top: 12px;
+    margin-left:73px;
+}
+.pay4 p{
+    margin-top: 12px;
+    margin-left:67px;
+}
+.pay5 p{
+    margin-top: 12px;
+    margin-left:70px;
+}
+.pay6 p{
+    margin-top: 12px;
+    margin-left:84px;
+}
+.third-component{
+    position: absolute;
+    top: 360px;
+    left: 403px;
+    box-shadow: 0px 3px 17px rgb(11 3 56);
+    padding-left: 25px;
+    padding-top: 45px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.heding1{
+    font-size: 32px;
+}
+.heding2{
+    color: rgb(176, 169, 169);
+}
+.container1{
+    display: flex;
+    margin-top: 25px;
+}
+.name{
+    text-align: left;
+    
+}
+.paay{
+    text-align: center;
+    margin-left: 62px;
+}
+.date{
+    text-align: center;
+    margin-left: 62px;
+}
+.bal{
+    text-align: center;
+    margin-left: 62px;
+}
+.boro{
+    font-size: 20px;
+    font-weight: bold;
+}
+.choto{
+    color: rgb(176, 169, 169);
+}
+.sym p{
+    margin-left: 32px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(176, 169, 169);
+}
+.arrow{
+    height: 19px;
+    width: 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: -10px;
+    left: 317px;
+    cursor: pointer;
+}
+.cross{
+    height: 34px;
+    width: 37px;
+    border-radius: 50px;
+    position: absolute;
+    top: 46px;
+    left: 552px;
+    cursor: pointer;
+}
+.settings{
+    height: 26px;
+    width: 29px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: 609px;
+    cursor: pointer;
+}
+.big-container{
+    height: 696px;
+    width: 23.5vw;
+    position: absolute;
+    top: 0px;
+    left: 1133px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 73px;
+    text-align: center;
+}
+.list{
+    padding: 4px 30px;
+    text-align: left;
+}
+.list li{
+    padding-bottom: 12px;
+}

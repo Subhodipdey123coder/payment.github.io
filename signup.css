@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    overflow: hidden;
+}
+.back img{
+    height: 100%;
+    width: 100%;
+}
+.heading3{
+    top: 127px;
+    left:690px;
+    position: absolute;
+    margin: auto;
+    font-size: 35px;
+    color: white;
+}
+.bodypart input{ 
+    display: block;
+    padding: 12px 12px;
+    width: 325px;
+    margin: 15px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.bodypart{
+    position: absolute;
+    top: 207px;
+    left:575px;
+}
+.btn5 button{
+    margin-top: 25px;
+    width: 351px;
+    height: 34px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn5 button a{
+    text-decoration: none;
+    color: white;
+}
+.another img{
+    height: 38px;
+    width: 38px;
+    margin-top: 35px;
+    margin-right:115px;
+    cursor: pointer;
+}
+.bodypart input:focus ~ placeholder{
+top: -0.3rem;
+left: 0.5rem;
+font-size: 10px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(95 3 181);
+}
+.first-division img{
+    width: 93%;
+    height: 660px;
+    margin-left: 3%;
+    margin-top: 40px;
+    border-radius:20px ;
+    cursor: pointer;
+}
+.company img{
+    height: 28px;
+    width: 127px;
+    margin-right: 35px;
+}
+

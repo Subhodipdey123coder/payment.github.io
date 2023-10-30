@@ -1,0 +1,78 @@
+.heading{
+    position: absolute;
+    top: 150px;
+    left: 63%;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.form{
+    position: absolute;
+    top: 288px;
+    left: 63%;
+}
+.first input{
+     width: 370px;
+    padding-bottom: 10px;
+    margin: 12px 0px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(114, 17, 205);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(114, 17, 205);
+    outline: none;
+
+}
+.second input{
+    width: 370px;
+    padding-bottom: 10px;
+    margin: 12px 0px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(114, 17, 205);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(114, 17, 205);
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color: rgb(176, 169, 169);
+}
+.third{
+    margin-top:15px ;
+    color: rgb(114, 17, 205);
+    cursor: pointer;
+}
+input[type="checkbox"]:active:before{
+   transform: scale(0);
+}
+
+.third span{
+    margin-left: 120px;
+}
+.btn{
+    padding: 14px 166px;
+    margin-top: 12px;
+    background-color: rgb(114, 17, 205);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+
+}
+.last1{
+    margin-top: 20px;
+}
+.last1 p span a{
+    text-decoration: none;
+    color: rgb(114, 17, 205);
+    font-weight: bold;
+}
